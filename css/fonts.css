@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;700&display=swap');
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Souliyo Unicode";
+  src: 
+    url("../fonts/Souliyo-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Souliyo-Regular.woff2") format("woff2"), 
+    url("../fonts/Souliyo-Regular.ttf") format("ttf")
+    /* Modern Browsers */;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AGaramondPro-Bold";
+  src: url("../fonts/AGaramondPro-Bold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AGaramondPro-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
