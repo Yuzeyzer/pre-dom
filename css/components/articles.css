@@ -1,0 +1,6 @@
+.articles {
+	height: 768px;
+}
+.articles__item {
+	background-color: red;
+}

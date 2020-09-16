@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta keywords="Видеоигра, Fortnite" />
-		<title>Aiza&Ajara</title>
-		<link rel="stylesheet" href="./css/index.css"/>
+    <title>Aiza&Ajara</title>
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header class="header">
@@ -20,25 +20,133 @@
             <div class="nav__search search flex">
               <label class="search__label" for="">
                 <input class="search__bar" type="text" placeholder="Search hear" />
-                <svg class="search__icon" width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M3.95836 6.97917C2.29 6.97917 0.937531 5.62669 0.937531 3.95833C0.937531 2.28997 2.29 0.9375 3.95836 0.9375C5.62672 0.9375 6.9792 2.28997 6.9792 3.95833C6.9792 4.67995 6.72617 5.34248 6.304 5.86202L8.55434 8.11236C8.67638 8.2344 8.67638 8.43227 8.55434 8.5543C8.4323 8.67634 8.23443 8.67634 8.1124 8.5543L5.86206 6.30396C5.34251 6.72614 4.67999 6.97917 3.95836 6.97917ZM3.95836 6.35417C5.28155 6.35417 6.3542 5.28152 6.3542 3.95833C6.3542 2.63515 5.28155 1.5625 3.95836 1.5625C2.63518 1.5625 1.56253 2.63515 1.56253 3.95833C1.56253 5.28152 2.63518 6.35417 3.95836 6.35417Z"/>
-                  </svg>
+                <svg
+                  class="search__icon"
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3.95836 6.97917C2.29 6.97917 0.937531 5.62669 0.937531 3.95833C0.937531 2.28997 2.29 0.9375 3.95836 0.9375C5.62672 0.9375 6.9792 2.28997 6.9792 3.95833C6.9792 4.67995 6.72617 5.34248 6.304 5.86202L8.55434 8.11236C8.67638 8.2344 8.67638 8.43227 8.55434 8.5543C8.4323 8.67634 8.23443 8.67634 8.1124 8.5543L5.86206 6.30396C5.34251 6.72614 4.67999 6.97917 3.95836 6.97917ZM3.95836 6.35417C5.28155 6.35417 6.3542 5.28152 6.3542 3.95833C6.3542 2.63515 5.28155 1.5625 3.95836 1.5625C2.63518 1.5625 1.56253 2.63515 1.56253 3.95833C1.56253 5.28152 2.63518 6.35417 3.95836 6.35417Z"
+                  />
+                </svg>
               </label>
             </div>
           </nav>
           <div class="header__auth auth flex">
-            <button class="auth__btn">Log in</button>
-            <button class="auth__btn">Sign Up</button>
+            <button class="auth__btn btn-gray">Log in</button>
+            <button class="auth__btn btn-electrican">Sign Up</button>
           </div>
         </div>
       </div>
     </header>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__row">
-          <a href="" class="footer__logo logo"></a>
+
+    <section class="hero">
+      <div class="container h-100">
+        <div class="hero__content row">
+          <div class="col-6">
+            <h6 class="hero__suptitle">Discover Game You Will Love</h6>
+            <h1 class="hero__title">Read About Games That You Enjoy</h1>
+            <a href="" class="hero__btn btn-electrican">
+              New Releases
+              <svg
+                class="hero__arrow"
+                width="22"
+                height="12"
+                viewBox="0 0 10 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.44067 5.6427C6.26982 5.47184 6.26982 5.19483 6.44067 5.02398L8.02715 3.4375H0.916702C0.675078 3.4375 0.479202 3.24163 0.479202 3C0.479202 2.75838 0.675078 2.5625 0.916702 2.5625H8.02714L6.44067 0.976031C6.26982 0.805177 6.26982 0.528167 6.44067 0.357313C6.61153 0.186458 6.88854 0.186458 7.05939 0.357313L9.39272 2.69065C9.56358 2.8615 9.56358 3.13851 9.39272 3.30936L7.05939 5.6427C6.88854 5.81355 6.61153 5.81355 6.44067 5.6427Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="col-6 text-center">
+            <img src="./images/boy.png" alt="" />
+          </div>
         </div>
       </div>
-    </footer>
+    </section>
+
+    <section class="trends">
+      <div class="container">
+        <div class="section-header flex">
+          <h3 class="trends__title">Currently Trending Game</h3>
+          <button class="btn-gray">Show all</button>
+        </div>
+        <div class="trends__row row text-center">
+          <div class="trends__column">
+            <img class="trends__img" src="./images/trends-1.png" alt="" />
+            <div class="trends__info">
+              <h5 class="trends__name">League Of Legends</h5>
+              <img class="trends__icon" src="./images/trends-icon-1.svg" alt="" />
+              <span class="trends__followers">55 Followers</span>
+              <img class="trends__stars" src="./images/stars.svg" alt="" />
+            </div>
+          </div>
+          <div class="trends__column">
+            <img class="trends__img" src="./images/trends-2.png" alt="" />
+            <div class="trends__info">
+              <h5 class="trends__name">League Of Legends</h5>
+              <img class="trends__icon" src="./images/trends-icon-1.svg" alt="" />
+              <span class="trends__followers">55 Followers</span>
+              <img class="trends__stars" src="./images/stars.svg" alt="" />
+            </div>
+          </div>
+          <div class="trends__column">
+            <img class="trends__img" src="./images/trends-3.jpg" alt="" />
+            <div class="trends__info">
+              <h5 class="trends__name">League Of Legends</h5>
+              <img class="trends__icon" src="./images/trends-icon-1.svg" alt="" />
+              <span class="trends__followers">55 Followers</span>
+              <img class="trends__stars" src="./images/stars.svg" alt="" />
+            </div>
+          </div>
+          <div class="trends__column">
+            <img class="trends__img" src="./images/trends-4.png" alt="" />
+            <div class="trends__info">
+              <h5 class="trends__name">League Of Legends</h5>
+              <img class="trends__icon" src="./images/trends-icon-1.svg" alt="" />
+              <span class="trends__followers">55 Followers</span>
+              <img class="trends__stars" src="./images/stars.svg" alt="" />
+            </div>
+          </div>
+          <div class="trends__column">
+            <img class="trends__img" src="./images/trends-5.png" alt="" />
+            <div class="trends__info">
+              <h5 class="trends__name">League Of Legends</h5>
+              <img class="trends__icon" src="./images/trends-icon-1.svg" alt="" />
+              <span class="trends__followers">55 Followers</span>
+              <img class="trends__stars" src="./images/stars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="articles">
+      <div class="container">
+        <div class="section-header flex">
+          <h3>Currently Trending Game</h3>
+          <button class="btn-gray">Show all</button>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="articles__item">fesfsefe</div>
+          </div>
+          <div class="col-4">
+            <div class="articles__item">esfes</div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

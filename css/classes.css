@@ -9,3 +9,44 @@
 .flex {
   display: flex;
 }
+
+.h-100 {
+  height: 100%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-gray:active,
+.btn-electrican:active {
+  transform: scale(0.97);
+}
+
+.btn-gray,
+.btn-electrican {
+  padding: 10px 35px;
+  color: var(--white);
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.btn-gray {
+  background-color: var(--darkGray);
+}
+.btn-electrican {
+  background-color: var(--electrican);
+}

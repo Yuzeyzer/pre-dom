@@ -20,6 +20,16 @@
 .header__auth {
   align-items: center;
 }
+.header__auth {
+  margin-left: 43px;
+}
+
+.auth__btn {
+  font-family: 'Souliyo Unicode', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 22px;
+}
 
 .nav__menu {
   margin-left: 35px;

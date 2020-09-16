@@ -3,3 +3,6 @@
 @import './classes.css';
 @import './base.css';
 @import './components/header.css';
+@import './components/hero.css';
+@import './components/trends.css';
+@import './components/articles.css';

@@ -1,0 +1,46 @@
+.hero {
+  height: calc(100vh - 68px);
+}
+
+.hero__content {
+  height: 100%;
+  background: url('../../images/back.png') center no-repeat;
+  background-size: cover;
+  padding: 134px 0 0 98px;
+  font-family: var(--redHat);
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.hero__suptitle {
+  margin: 0 0 14px 0;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: var(--white);
+}
+
+.hero__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 0.005em;
+  color: var(--white);
+}
+
+.hero__btn {
+	margin-top: 14px;
+	display: inline-block;
+  box-sizing: border-box;
+  font-family: 'Souliyo Unicode', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+	color: var(--white);
+}
+
+.hero__arrow {
+  margin-left: 10px;
+}
