@@ -1,6 +1,45 @@
 .articles {
-	height: 768px;
+  height: 768px;
+}
+.articles__row {
+  max-width: 1190px;
+  margin: auto;
+}
+.articles__column {
+  padding: 10px;
+  box-sizing: border-box;
 }
 .articles__item {
-	background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  /* margin: 0 -20px; */
+  /* padding: 45px; */
+  box-sizing: border-box;
+  min-height: 247px;
+  height: 100%;
+}
+.articles__information {
+  padding: 0 0 15px 45px;
+}
+.articles__img {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+  z-index: -1;
+}
+.articles__title,
+.articles__description {
+  margin: 0;
+}
+.articles__title {
+  font-size: 27px;
+}
+.articles__description {
+  margin-top: 5px;
+  font-size: 20px;
+  opacity: 0.8;
 }

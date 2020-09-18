@@ -50,3 +50,18 @@
 .btn-electrican {
   background-color: var(--electrican);
 }
+
+.section-header {
+  justify-content: space-between;
+  max-height: 44px;
+  margin: 0 7px 43px 20px;
+}
+
+.section-header__title {
+  font-size: 30px;
+  margin: 0;
+}
+
+.section-header__btn {
+  font-size: 20px;
+}

@@ -1,14 +1,10 @@
 .trends {
   padding: 30px 0;
+  min-height: 576px;
+  box-sizing: border-box;
 }
 .trends__row {
   margin: 0 -13px;
-}
-
-.section-header {
-  justify-content: space-between;
-  max-height: 44px;
-  margin: 0 7px 43px 20px;
 }
 
 .trends__column {

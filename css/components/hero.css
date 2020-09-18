@@ -1,5 +1,5 @@
 .hero {
-  height: calc(100vh - 68px);
+  height: calc(768px - 68px);
 }
 
 .hero__content {
